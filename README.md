@@ -68,11 +68,37 @@ aws iam create-policy  --policy-name rds-s3-export-policy  --policy-document '{
          ],
          "Effect": "Allow",
          "Resource": [
-           "arn:aws:s3:::your-s3-bucket/*"
+           "arn:aws:s3:::xero-dgt-test-ap-southeast-2-reporting/*"
          ] 
        }
      ] 
    }'
+   
+
+aws iam create-role  --role-name rds-s3-export-role  --assume-role-policy-document '{
+     "Version": "2012-10-17",
+     "Statement": [
+       {
+         "Effect": "Allow",
+         "Principal": {
+            "Service": "rds.amazonaws.com"
+          },
+         "Action": "sts:AssumeRole"
+       }
+     ] 
+   }'
+   
+aws iam attach-role-policy  --policy-arn arn:aws:iam::328916801733:policy/rds-s3-export-policy  --role-name rds-s3-export-role
+
+
+
+aws rds add-role-to-db-cluster \
+   --db-cluster-identifier user-tracking-api-test-cluster \
+   --feature-name s3Export \
+   --role-arn arn:aws:iam::328916801733:role/rds-s3-export-role   \
+   --region ap-southeast-2
+   
+ 
    
 
 
