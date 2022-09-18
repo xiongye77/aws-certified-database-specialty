@@ -6,6 +6,9 @@ postgres create extension
 
 
 postgres=> \dx
+
+
+
                  List of installed extensions
   Name   | Version |   Schema   |         Description
 ---------+---------+------------+------------------------------
@@ -15,13 +18,19 @@ postgres=> \dx
 postgres=> create extension pg_stat_statements;
 CREATE EXTENSION
 
+
 postgres=> \dx
+
+
+
                                             List of installed extensions
         Name        | Version |   Schema   |                              Description
 --------------------+---------+------------+------------------------------------------------------------------------
  pg_stat_statements | 1.8     | public     | track planning and execution statistics of all SQL statements executed
  plpgsql            | 1.0     | pg_catalog | PL/pgSQL procedural language
 (2 rows)
+
+
 
 
 
