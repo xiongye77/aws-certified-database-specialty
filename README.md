@@ -19,15 +19,8 @@ postgres=> SHOW rds.extensions;
 postgres=> SELECT query, calls, total_exec_time, rows, 100.0 * shared_blks_hit /
 postgres->                nullif(shared_blks_hit + shared_blks_read, 0) AS hit_percent
 postgres->           FROM pg_stat_statements ORDER BY total_exec_time DESC LIMIT 5;
-                                query                                | calls |  total_exec_time   |  rows   |     hit_percent
----------------------------------------------------------------------+-------+--------------------+---------+----------------------
- insert into test select * from test                                 |     4 |       30744.826386 | 1346070 | 100.0000000000000000
- Select * from aurora_scale_buffer_cache($1)                         |     5 |       16393.545754 |       5 |
- create table test as select * from ua_offline_event                 |     1 |        8640.894206 |       0 |  12.3230490018148820
- create extension pg_stat_statements                                 |     1 | 1707.5418049999998 |       0 |  94.4307540660423854
- select sum(aurora_stat_get_db_commit_latency(oid)) from pg_database |    38 |  730.3744429999999 |      38 | 100.0000000000000000
-(5 rows)
 
+![image](https://user-images.githubusercontent.com/36766101/190889287-2328df0a-6f33-406a-85c7-e73e61d5aa19.png)
 
 
 
@@ -43,3 +36,21 @@ postgres=> SHOW server_version;
 ----------------
  13.7
 (1 row)
+
+
+# Postgres RDS export to S3 use extension
+
+1 AWS RDS Postgres Export to S3: Exporting Data to Amazon S3
+CREATE EXTENSION IF NOT EXISTS aws_s3 CASCADE;
+
+postgres=> CREATE EXTENSION IF NOT EXISTS aws_s3 CASCADE;
+NOTICE:  installing required extension "aws_commons"
+CREATE EXTENSION
+
+2 AWS RDS Postgres Export to S3: PostgreSQL Version Verification
+
+aws rds describe-db-engine-versions   --engine aurora-postgresql --engine-version=13.7  --region=ap-southeast-2
+verify s3Export is there 
+![image](https://user-images.githubusercontent.com/36766101/190889649-3c6d7db2-a8e1-43c4-ae76-8d813c8dd1ac.png)
+
+
