@@ -1,5 +1,29 @@
 # aws-certified-database-specialty
 
+
+# check postgres uptime 
+
+postgres=> select current_timestamp - pg_postmaster_start_time() as uptime;
+     uptime
+-----------------
+ 06:22:02.876339
+(1 row)
+
+
+
+# DB parameter group 
+1 Create new db parameter group and make changes to parameter.
+![image](https://user-images.githubusercontent.com/36766101/190900783-4339eb3c-47eb-46f6-8c43-c5bcfc693abf.png)
+
+2 Associate parameter group with db instance
+
+3 Apply immediately and reboot db instance if needed. 
+![image](https://user-images.githubusercontent.com/36766101/190900862-c313d9d3-ceec-4d35-97a3-42be9ab38d42.png)
+
+
+
+
+
 postgres create extension
 postgres=> \dx
 
