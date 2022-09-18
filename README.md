@@ -56,7 +56,36 @@ verify s3Export is there
 
 
 
+3 Create IAM policy/IAM role/Attach Role to RDS
 
+sh-4.2$ aws iam create-policy  --policy-name rds-s3-export-policy  --policy-document '{
+     "Version": "2012-10-17",
+     "Statement": [
+       {
+         "Sid": "s3export",
+         "Action": [
+           "S3:PutObject"
+         ],
+         "Effect": "Allow",
+         "Resource": [
+           "arn:aws:s3:::xero-dgt-test-ap-southeast-2-reporting/*"
+         ]
+       }
+     ]
+   }'
+   
+sh-4.2$ aws iam create-role  --role-name rds-s3-export-role  --assume-role-policy-document '{
+>      "Version": "2012-10-17",
+>      "Statement": [
+>        {
+>          "Effect": "Allow",
+>          "Principal": {
+>             "Service": "rds.amazonaws.com"
+>           },
+>          "Action": "sts:AssumeRole"
+>        }
+>      ]
+>    }'
 
 ![image](https://user-images.githubusercontent.com/36766101/190891695-c50ae14e-134d-4557-9b8d-01a63c4ff1c0.png)
 
