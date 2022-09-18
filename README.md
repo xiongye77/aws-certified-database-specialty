@@ -1,37 +1,19 @@
 # aws-certified-database-specialty
 
 postgres create extension
-
-
-
-
 postgres=> \dx
 
 
-
-                 List of installed extensions
-  Name   | Version |   Schema   |         Description
----------+---------+------------+------------------------------
- plpgsql | 1.0     | pg_catalog | PL/pgSQL procedural language
-(1 row)
 
 postgres=> create extension pg_stat_statements;
 CREATE EXTENSION
 
-
 postgres=> \dx
 
 
+postgres=> select * from pg_available_extensions;
 
-                                            List of installed extensions
-        Name        | Version |   Schema   |                              Description
---------------------+---------+------------+------------------------------------------------------------------------
- pg_stat_statements | 1.8     | public     | track planning and execution statistics of all SQL statements executed
- plpgsql            | 1.0     | pg_catalog | PL/pgSQL procedural language
-(2 rows)
-
-
-
+postgres=> SHOW rds.extensions;
 
 
 postgres=> SELECT query, calls, total_exec_time, rows, 100.0 * shared_blks_hit /
@@ -45,3 +27,19 @@ postgres->           FROM pg_stat_statements ORDER BY total_exec_time DESC LIMIT
  create extension pg_stat_statements                                 |     1 | 1707.5418049999998 |       0 |  94.4307540660423854
  select sum(aurora_stat_get_db_commit_latency(oid)) from pg_database |    38 |  730.3744429999999 |      38 | 100.0000000000000000
 (5 rows)
+
+
+
+
+postgres=> SELECT version();
+                                                   version
+-------------------------------------------------------------------------------------------------------------
+ PostgreSQL 13.7 on aarch64-unknown-linux-gnu, compiled by aarch64-unknown-linux-gnu-gcc (GCC) 7.4.0, 64-bit
+(1 row)
+
+
+postgres=> SHOW server_version;
+ server_version
+----------------
+ 13.7
+(1 row)
