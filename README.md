@@ -6,7 +6,7 @@ postgres=> \dx
 
 
 postgres=> create extension pg_stat_statements;
-CREATE EXTENSION
+
 
 postgres=> \dx
 
