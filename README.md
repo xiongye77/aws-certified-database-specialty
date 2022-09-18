@@ -90,17 +90,23 @@ aws iam create-role  --role-name rds-s3-export-role  --assume-role-policy-docume
    
 aws iam attach-role-policy  --policy-arn arn:aws:iam::328916801733:policy/rds-s3-export-policy  --role-name rds-s3-export-role
 
-
-
-aws rds add-role-to-db-cluster \
-   --db-cluster-identifier user-tracking-api-test-cluster \
-   --feature-name s3Export \
-   --role-arn arn:aws:iam::328916801733:role/rds-s3-export-role   \
-   --region ap-southeast-2
-   
+aws rds add-role-to-db-cluster    --db-cluster-identifier user-tracking-api-test-cluster   --feature-name s3Export    --role-arn arn:aws:iam::328916801733:role/rds-s3-export-role      --region ap-southeast-2
  
    
-
-
 ![image](https://user-images.githubusercontent.com/36766101/190891695-c50ae14e-134d-4557-9b8d-01a63c4ff1c0.png)
+
+4 Export data to S3 
+
+SELECT aws_commons.create_s3_uri(
+   'xero-dgt-test-ap-southeast-2-reporting',
+   'ua_offline_event.txt',
+   'ap-southeast-2'
+) AS s3_uri_1 \gset
+
+
+
+select count(*) from "user_tracking_api".public.ua_offline_event;
+
+SELECT * FROM aws_s3.query_export_to_s3(' select * from ua_offline_event;', :'s3_uri_1');
+
 
