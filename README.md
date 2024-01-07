@@ -136,7 +136,58 @@ When you change a static parameter and save the DB parameter group, the paramete
 
 # RDS Option Group
 ![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/27d9fa86-b143-4272-8232-cc8f7ae12e04)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/8e30e9bf-90a9-4842-b871-0e4ea4fca37d)
+
+
+# RDS Multi-AZ DB Instance/DB Cluster 
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/b1045ad9-e44b-4b09-a5d6-d9ec3aeca354)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/4bf4b726-c025-4b08-8102-53d4660738f1)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/a13d0253-bbed-4ed4-bf0d-4403b23f6f6d)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/26a2e8e4-dd22-413e-b9c0-e36de5391707)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/e714eb5b-e49e-4113-9d11-a7f07665f916)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/21d7e541-03d1-43a8-bc4e-b83d63283401)
+
+
+# RDS Proxy
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/ed36a97f-5162-4cc9-a7d9-f5e1c87f4414)
+
+# RDS Read Replica
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/185fb19d-e9e0-4d82-a8e1-2f3008f42ffc)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/6bee7466-ced8-4ae1-bdd2-ddbc6eaccb6a)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/c1d8f702-e6b4-4b93-aaa7-d66eb7ea7f0b)
+
+# RDS Multi-AZ with Read Replica
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/a0f337ea-b357-48e2-a277-9bbfdbb80e8a)
 
 
 
+# RDS DB Subnet 
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/1f660909-8262-40b9-9729-33cc18458bee)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/6bc355f5-9621-4a2c-9d37-77051318f32b)
 
+
+
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/e9244776-19f2-4c14-86dd-8ad695252a18)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/7768ac1e-2403-4e52-81a0-ac25137ea20f)
+
+
+postgres=> SELECT version();
+                                                   version
+-------------------------------------------------------------------------------------------------------------
+ PostgreSQL 13.7 on aarch64-unknown-linux-gnu, compiled by aarch64-unknown-linux-gnu-gcc (GCC) 7.4.0, 64-bit
+(1 row)
+
+
+postgres=> SHOW server_version;
+ server_version
+----------------
+ 13.7
+(1 row)
+ 
+
+check postgres uptime 
+postgres=> select current_timestamp - pg_postmaster_start_time() as uptime;
+     uptime
+-----------------
+ 06:22:02.876339
+(1 row)
