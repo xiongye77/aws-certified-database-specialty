@@ -165,10 +165,30 @@ When you change a static parameter and save the DB parameter group, the paramete
 ![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/1f660909-8262-40b9-9729-33cc18458bee)
 ![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/6bc355f5-9621-4a2c-9d37-77051318f32b)
 
-
-
 ![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/e9244776-19f2-4c14-86dd-8ad695252a18)
 ![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/7768ac1e-2403-4e52-81a0-ac25137ea20f)
+
+
+# AWS Aurora
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/d9a9d699-de96-4a2c-be51-ff2cbcd59f8c)
+storage separated from compute
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/41a8e6c5-6de0-4ca2-b2de-c965c877c68c)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/fcc0ef8d-a22a-4ebc-890b-5f2e10875c85)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/4ab1afb2-58d8-41fc-bda7-de59bbbb39d7)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/b3e3f7bb-8c62-4971-a9f3-0e70c81cf1f6)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/07e22900-6fda-4fa6-a94c-ab8a3b06be88)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/5347f654-e73c-4b20-baba-89f3ad6e6deb)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/5ec99a2c-f736-45a1-b641-f72f07b6f20e)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/19fa13ce-3fc5-4308-bfab-68ce9fcb75a8)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/a86ac44f-7c15-468b-b131-6a6154b88581)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/2bd23c0e-de85-4767-9c8c-90fbaae93434)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/b186da54-81c2-4368-b237-8e4336f12569)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/717c7c24-5b13-4335-afd0-20d738a763f9)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/e97c015d-c329-49be-9a71-8f705b98b75b)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/0506b45c-fe4a-4bea-8592-087f8dd68022)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/6ac3be04-a4fb-4ab9-a249-e104c5d74c95)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/128e1f2f-edc0-49c3-bbb5-71330446a32d)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/b4223f0c-a41c-41ed-adbb-245ebd61a97d)
 
 
 postgres=> SELECT version();
