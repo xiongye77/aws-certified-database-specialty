@@ -147,8 +147,13 @@ select count(*) from "user_tracking_api".public.ua_offline_event;
 ![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/a600e52d-44bf-4711-aba1-3304e9a79ebe)
 ![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/aa390dfa-c07c-4357-8805-bf780bff09e3)
 
+# RDS parameter group 
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/8a0b23ae-e3d4-4464-806d-deaa154a3121)
 
+When you change a static parameter and save the DB parameter group, the parameter change takes effect after you manually reboot the associated DB instances. For static parameters, the console always uses pending-reboot for the ApplyMethod.
 
+# RDS Option Group
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/27d9fa86-b143-4272-8232-cc8f7ae12e04)
 
 SELECT * FROM aws_s3.query_export_to_s3(' select * from ua_offline_event;', :'s3_uri_1');
 
