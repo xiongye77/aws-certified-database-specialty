@@ -1,5 +1,18 @@
 # aws-certified-database-specialty
 
+# Encrypt an unencrypted RDS using snapshot
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/72ed6e5e-0b7c-4a11-9346-2c4a680d5aeb)
+
+# RDS backup using backup VS snapshot
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/a7b88ced-7360-441d-be39-89ce6fa1874d)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/1ee35bb9-54c7-480a-9837-25b415539f8f)
+
+# RDS PITR
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/a85a7411-0736-4b77-80e2-9cd4cb31718c)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/ee74bef4-c6df-4f28-9d96-1b70dd31436f)
+
+# RDS Restore
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/e980aa5a-545e-483a-8add-2c155d5cafd6)
 
 # check postgres uptime 
 
