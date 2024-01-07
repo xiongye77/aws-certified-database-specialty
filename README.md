@@ -155,6 +155,6 @@ When you change a static parameter and save the DB parameter group, the paramete
 # RDS Option Group
 ![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/27d9fa86-b143-4272-8232-cc8f7ae12e04)
 
-SELECT * FROM aws_s3.query_export_to_s3(' select * from ua_offline_event;', :'s3_uri_1');
+
 
 
