@@ -140,9 +140,15 @@ SELECT aws_commons.create_s3_uri(
    'ap-southeast-2'
 ) AS s3_uri_1 \gset
 
-
-
 select count(*) from "user_tracking_api".public.ua_offline_event;
+
+# RDS Automatic Backup
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/b0eb2397-6212-4756-b75b-03988d673086)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/a600e52d-44bf-4711-aba1-3304e9a79ebe)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/aa390dfa-c07c-4357-8805-bf780bff09e3)
+
+
+
 
 SELECT * FROM aws_s3.query_export_to_s3(' select * from ua_offline_event;', :'s3_uri_1');
 
