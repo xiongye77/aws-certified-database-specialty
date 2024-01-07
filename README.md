@@ -14,13 +14,6 @@
 # RDS Restore
 ![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/e980aa5a-545e-483a-8add-2c155d5cafd6)
 
-# check postgres uptime 
-
-postgres=> select current_timestamp - pg_postmaster_start_time() as uptime;
-     uptime
------------------
- 06:22:02.876339
-(1 row)
 
 
 
@@ -61,18 +54,7 @@ postgres->           FROM pg_stat_statements ORDER BY total_exec_time DESC LIMIT
 
 
 
-postgres=> SELECT version();
-                                                   version
--------------------------------------------------------------------------------------------------------------
- PostgreSQL 13.7 on aarch64-unknown-linux-gnu, compiled by aarch64-unknown-linux-gnu-gcc (GCC) 7.4.0, 64-bit
-(1 row)
 
-
-postgres=> SHOW server_version;
- server_version
-----------------
- 13.7
-(1 row)
 
 
 # Postgres RDS export to S3 use extension
