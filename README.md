@@ -204,7 +204,7 @@ storage separated from compute
 # AWS ElasticCache In Memory Database
 ![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/6892fcf0-9398-420c-b447-81793ebd5f57)
 
-# RDS monitor using  RDS Event and Cloudwatch Metric
+# RDS monitor using  RDS Event and Cloudwatch Metric and performance insight
 ![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/03bf8a73-ef20-4104-b9c9-d0e9940df774)
 ![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/be7f32ae-a32c-4521-ac28-f6e602283fdb)
 ![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/b9a62840-b843-4bd8-a53a-f43d0713af0b)
@@ -215,6 +215,15 @@ storage separated from compute
 ![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/0d9e9c00-1753-4da3-9607-d631e07e4a6a)
 ![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/32388130-bb80-48ae-aa9f-b2f5e9142ccb)
 ![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/48d22919-9a29-4b0e-b90f-7bba7c5239d6)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/400a473f-798d-42db-b915-aa8464332c44)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/2a31778d-e538-4d50-bb97-43484b1bd664)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/26d0bcce-6ba0-457c-bffc-e0b1cad1288f)
+
+
+# Enhance DynCloudWatch Contributor Insights
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/be2cf9cd-ad81-4bcb-a4cd-5629088567f4)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/32b0818d-c60c-445c-9eab-897633b5ac77)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/6f5eb15f-7fc7-4856-8fad-1a94bf3e73e7)
 
 
 ![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/245025bc-f3ee-4955-b4bf-93a4f4becb00)
