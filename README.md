@@ -189,7 +189,37 @@ storage separated from compute
 ![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/6ac3be04-a4fb-4ab9-a249-e104c5d74c95)
 ![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/128e1f2f-edc0-49c3-bbb5-71330446a32d)
 ![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/b4223f0c-a41c-41ed-adbb-245ebd61a97d)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/211cb5ac-809d-4b00-bf4c-4f8471567cbf)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/23e8feb3-c3a5-4adc-9388-cf165a2a55ed)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/fac2ca80-e37f-4888-a127-393977eed71b)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/e64f823e-d666-449c-8c9e-216c7507001e)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/bbf0e576-9a64-4df1-83b9-90a171b430d7)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/041d842e-5ad6-4520-b8eb-83b2d711c7ac)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/ccb3f753-d485-42ab-ac69-41e04c78162a)
 
+# AWS Aurora COW clone
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/c65c3e33-dd55-4f7e-8d4f-edff9611076d)
+
+
+# AWS ElasticCache In Memory Database
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/6892fcf0-9398-420c-b447-81793ebd5f57)
+
+# RDS monitor using  RDS Event and Cloudwatch Metric
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/03bf8a73-ef20-4104-b9c9-d0e9940df774)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/be7f32ae-a32c-4521-ac28-f6e602283fdb)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/b9a62840-b843-4bd8-a53a-f43d0713af0b)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/6e92bb2e-ef32-4388-abdf-8c8cd7883520)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/5263b09a-ab67-4971-9d80-2f35f063c95a)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/1b1816c0-d3ae-4fbe-a114-c0d5d4829d31)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/aeb5054d-31b5-4af0-895c-683debc7e140)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/0d9e9c00-1753-4da3-9607-d631e07e4a6a)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/32388130-bb80-48ae-aa9f-b2f5e9142ccb)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/48d22919-9a29-4b0e-b90f-7bba7c5239d6)
+
+
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/245025bc-f3ee-4955-b4bf-93a4f4becb00)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/653ad0fc-17da-47c1-9ac0-c9d0acd3e9ca)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/5d261146-e104-4416-af33-78b1c0f23d20)
 
 postgres=> SELECT version();
                                                    version
