@@ -226,6 +226,27 @@ storage separated from compute
 ![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/6f5eb15f-7fc7-4856-8fad-1a94bf3e73e7)
 
 
+# Database audit 
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/49e950a4-7dc5-4fcb-b241-d2d250de74db)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/83f39efe-5920-4437-8812-20a7e0ebac51)
+
+# RDS replication issue 
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/1ec4b33b-6baa-4525-817f-5ffe55a8d5ea)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/ec12975a-06bf-4d8d-ab42-cb7262d627dd)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/267300bf-bdc0-451d-bf2b-9ca671bdde20)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/85e68297-cc2b-4085-87c8-9214e6eaf59d)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/fa82ee32-27ee-48a2-81e1-18bda3a67347)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/c858fcfa-fa99-4f6a-971b-a9e1465b3b62)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/5b708675-621e-4766-b69a-6446983f0515)
+
+
+# RDS Troubleshooting
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/c117c0d3-20ef-46b8-ae8b-2f5793371364)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/47086221-e947-433f-a02b-9ea277e1699e)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/5c06097c-9478-4935-a602-f59d2cb54a2a)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/de3be93d-94c8-4d4c-bcc1-6a323a05af61)
+
+
 ![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/245025bc-f3ee-4955-b4bf-93a4f4becb00)
 ![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/653ad0fc-17da-47c1-9ac0-c9d0acd3e9ca)
 ![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/5d261146-e104-4416-af33-78b1c0f23d20)
