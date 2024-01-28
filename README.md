@@ -253,6 +253,10 @@ storage separated from compute
 
 
 # AWS DynamoDB provisioned capacity with autoscale vs on-demand capacity  (2024/01/28)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/50776e6b-fb88-4be1-b866-b8d941e47544)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/d17f279d-b576-443b-9630-171f51707d62)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/30b26d32-e73e-436c-bcaa-cb409718cc7d)
+
 ![image](https://github.com/xiongye77/aws_sysops_tasks/assets/36766101/85aa9f99-60ca-445c-8c12-5edbda1a65c8)
 ![image](https://github.com/xiongye77/aws_sysops_tasks/assets/36766101/924ed675-54bd-4f55-a98c-b7af3e23615e)
 ![image](https://github.com/xiongye77/aws_sysops_tasks/assets/36766101/4bfc2d24-f337-4d26-af5d-7beeefb69653)
@@ -279,6 +283,28 @@ Global secondary index — An index with a partition key and a sort key that can
 # AWS DynamoDB stream
 ![image](https://github.com/xiongye77/aws_sysops_tasks/assets/36766101/1a8268b5-650e-493a-b841-a04dbbd40686)
 ![image](https://github.com/xiongye77/aws_sysops_tasks/assets/36766101/766214fb-c1b9-4add-9919-e73f2acf80bd)
+
+
+# AWS Dynamodb Encryption
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/3212363a-8268-4796-bc7b-032cabfbff14)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/ea628e3e-2950-45f2-924e-cfdb62f4d9f6)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/564e9dae-a36c-45b4-956d-f75b3bf15b9a)
+
+
+# Dynamodb scan/query/filter/project expression
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/1013a32c-0965-4143-a738-c4235a80432c)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/4c93bfaa-f9a6-4b95-8e53-c19ba7ffbbca)
+
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/0a25b0c8-9a14-4a7f-88e2-5456cb2bb12c)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/e03fe30d-a391-417b-86bd-0bcd3643bf15)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/67c0db5e-11f8-41ca-941d-0fa1d61d8641)
+
+# Dynamodb BatchGetItem
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/bb505ce0-7ab0-4524-bfec-1f60782a5aea)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/5e6ee9b9-8588-4230-82bf-c05b28ee9d86)
+
+# Dynamodb PITR
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/3472829b-ed36-4369-8399-8ce123177799)
 
 postgres=> SELECT version();
                                                    version
