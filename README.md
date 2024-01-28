@@ -251,6 +251,35 @@ storage separated from compute
 ![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/653ad0fc-17da-47c1-9ac0-c9d0acd3e9ca)
 ![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/5d261146-e104-4416-af33-78b1c0f23d20)
 
+
+# AWS DynamoDB provisioned capacity with autoscale vs on-demand capacity  (2024/01/28)
+![image](https://github.com/xiongye77/aws_sysops_tasks/assets/36766101/85aa9f99-60ca-445c-8c12-5edbda1a65c8)
+![image](https://github.com/xiongye77/aws_sysops_tasks/assets/36766101/924ed675-54bd-4f55-a98c-b7af3e23615e)
+![image](https://github.com/xiongye77/aws_sysops_tasks/assets/36766101/4bfc2d24-f337-4d26-af5d-7beeefb69653)
+
+![image](https://github.com/xiongye77/aws_sysops_tasks/assets/36766101/12ef5020-c8f1-4f60-9655-aa579a132315)
+
+With provisioned capacity you can also use auto scaling to automatically adjust your table’s capacity based on the specified utilization rate to ensure application performance, and also to potentially reduce costs. To configure auto scaling in DynamoDB, set the minimum and maximum levels of read and write capacity in addition to the target utilization percentage.
+
+
+# AWS DynamoDB local secondary index /global secondary index  
+Secondary index allow efficient access to data with attributes other than the primary key.
+Local secondary index: An index that has the same partition key as the base table, but a different sort key. Local secondary index can only be created when create the table.
+Global secondary index — An index with a partition key and a sort key that can be different from those on the base table.
+![image](https://github.com/xiongye77/aws_sysops_tasks/assets/36766101/58da0454-6218-44ef-b834-627d47a20ba6)
+
+# AWS DynamoDB stream to Kinesis data stream 
+# AWS DynamoDB transaction
+![image](https://github.com/xiongye77/aws_sysops_tasks/assets/36766101/b397c7c7-0ca7-4951-bd8f-837c508abc86)
+![image](https://github.com/xiongye77/aws_sysops_tasks/assets/36766101/9f295555-1b0a-49e2-9e21-19cb5f6c9f1a)
+
+![image](https://github.com/xiongye77/aws_sysops_tasks/assets/36766101/beb235bf-0422-4eca-b8dd-e54fe7c06f18)
+![image](https://github.com/xiongye77/aws_sysops_tasks/assets/36766101/bac71bbd-12a6-40d1-83c1-d5956598a770)
+
+# AWS DynamoDB stream
+![image](https://github.com/xiongye77/aws_sysops_tasks/assets/36766101/1a8268b5-650e-493a-b841-a04dbbd40686)
+![image](https://github.com/xiongye77/aws_sysops_tasks/assets/36766101/766214fb-c1b9-4add-9919-e73f2acf80bd)
+
 postgres=> SELECT version();
                                                    version
 -------------------------------------------------------------------------------------------------------------
