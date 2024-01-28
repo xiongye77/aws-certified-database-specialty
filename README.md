@@ -271,6 +271,9 @@ Secondary index allow efficient access to data with attributes other than the pr
 Local secondary index: An index that has the same partition key as the base table, but a different sort key. Local secondary index can only be created when create the table.
 Global secondary index — An index with a partition key and a sort key that can be different from those on the base table.
 ![image](https://github.com/xiongye77/aws_sysops_tasks/assets/36766101/58da0454-6218-44ef-b834-627d47a20ba6)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/55e9a141-89ef-41df-aa05-80808a93807e)
+
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/ad41def9-481b-43ab-8391-362fddfdfd3f)
 
 # AWS DynamoDB stream to Kinesis data stream 
 # AWS DynamoDB transaction
@@ -283,6 +286,11 @@ Global secondary index — An index with a partition key and a sort key that can
 # AWS DynamoDB stream
 ![image](https://github.com/xiongye77/aws_sysops_tasks/assets/36766101/1a8268b5-650e-493a-b841-a04dbbd40686)
 ![image](https://github.com/xiongye77/aws_sysops_tasks/assets/36766101/766214fb-c1b9-4add-9919-e73f2acf80bd)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/e1574c6e-2fcc-4086-8566-bdeb11bf4a2b)
+# DynamoDB Global Table
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/ef9596f9-5154-4f20-8b22-3f5f897ec436)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/7253636e-f76a-41b7-8731-892e649f2643)
+
 
 
 # AWS Dynamodb Encryption
@@ -305,6 +313,9 @@ Global secondary index — An index with a partition key and a sort key that can
 
 # Dynamodb PITR
 ![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/3472829b-ed36-4369-8399-8ce123177799)
+
+# Dynamodb consistency mode
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/ef223061-0b8f-4b03-9ded-5447591072b9)
 
 postgres=> SELECT version();
                                                    version
