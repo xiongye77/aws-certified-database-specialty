@@ -320,7 +320,8 @@ Global secondary index — An index with a partition key and a sort key that can
 # Dynamodb Accelerator (DAX)
 ![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/f29ad88d-7338-4f01-8101-33b054fe01b0)
 ![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/6e2d1b7c-9f61-49cc-af51-ecf64584811e)
-
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/2a7f7830-9b2b-4dbb-95a0-7cd7c6b1f118)
+https://github.com/pluralsight-cloud/AWS-Certified-Database-Specialty-DBS-C01/tree/main/DynamoDB/Time%20to%20Live
 # Dynamodb Global Table
 ![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/a6584993-d849-4a7b-8051-a30646730c53)
 
