@@ -317,6 +317,21 @@ Global secondary index — An index with a partition key and a sort key that can
 # Dynamodb consistency mode
 ![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/ef223061-0b8f-4b03-9ded-5447591072b9)
 
+# Dynamodb Accelerator (DAX)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/f29ad88d-7338-4f01-8101-33b054fe01b0)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/6e2d1b7c-9f61-49cc-af51-ecf64584811e)
+
+# Dynamodb Global Table
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/a6584993-d849-4a7b-8051-a30646730c53)
+
+# Dynamodb TTL
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/12b531c7-98f5-4a2f-9ac3-a5344ca73aa8)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/0ef092fb-f277-4d41-b42e-f46d4665818e)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/60317b2c-4774-4968-99e5-820ad5226b7d)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/1701669e-7be6-400f-a8bf-4c8a274a3391)
+
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/3eb4cacf-e1b5-4b34-847b-7312d0b7c937)
+
 postgres=> SELECT version();
                                                    version
 -------------------------------------------------------------------------------------------------------------
