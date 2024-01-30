@@ -333,6 +333,11 @@ https://github.com/pluralsight-cloud/AWS-Certified-Database-Specialty-DBS-C01/tr
 
 ![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/3eb4cacf-e1b5-4b34-847b-7312d0b7c937)
 
+
+# Dynamodb VPC endpoint
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/db89f3dc-e5ec-4326-aa36-10e444a0e254)
+
+
 postgres=> SELECT version();
                                                    version
 -------------------------------------------------------------------------------------------------------------
