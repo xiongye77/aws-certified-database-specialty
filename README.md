@@ -361,6 +361,29 @@ https://github.com/pluralsight-cloud/AWS-Certified-Database-Specialty-DBS-C01/tr
 
 ![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/fb04f35b-da3c-43b5-b5d8-1de8e3779a64)
 
+# Redshift Federated Query
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/4c646b5f-2da1-47b3-98d3-cf39a57268ff)
+
+# Redshift WLM
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/786e2599-4190-421e-838c-bce95bc24005)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/6208bd61-39c8-4ae6-81a3-d9be17d0642c)
+
+# Redshift Backup/Restore
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/d78e5233-ba8e-44a2-a4b9-36cb50b99196)
+
+# Migration Tool XtraBackup
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/2dd5daad-9a29-4775-af43-7eeabce7d8ac)
+
+
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/5148270c-d70d-48dd-95fc-b7d5b3e9bd04)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/975e5d7f-e73e-4535-a194-cbf09cd85229)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/c92a18a7-501f-43b1-bb49-ff1bccc4a8ca)
+
+# AWS DMS (replication instance)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/6ea78698-0339-4a37-a090-f301e0a6bf62)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/109a8253-450b-4ffc-8f5f-cbc505f8cbe9)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/94ea5763-64cc-408d-955f-87e080553214)
+
 
 postgres=> SELECT version();
                                                    version
