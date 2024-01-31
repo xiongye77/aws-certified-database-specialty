@@ -338,6 +338,30 @@ https://github.com/pluralsight-cloud/AWS-Certified-Database-Specialty-DBS-C01/tr
 ![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/db89f3dc-e5ec-4326-aa36-10e444a0e254)
 
 
+
+# Redshift Architecture Resize cluster
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/e5a86a79-1533-4cca-aa1b-8385d2448022)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/85ed2318-aff9-4044-ab1e-accb01f616e5)
+
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/acccf5df-d954-4207-8a7a-0d6acd983be6)
+
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/502d9a1b-e904-42de-8c58-27a897449872)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/fe961562-7763-4955-9aa2-81ed8a76de2c)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/944d0927-6bb4-4ed1-b286-37f5782475de)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/f6d4833e-3156-4895-8d45-c991238e1507)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/8391c7bd-80f3-4b54-85b6-c2c6b003b67b)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/6c7db731-5392-4571-a5e6-aff96280faf5)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/ac48262b-b5cd-4ba8-919c-c1b1afd48c47)
+
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/440693ca-6fd3-4ebb-9f1b-3c0b1ae94006)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/07defa88-ec79-47b4-94ec-41cfe3267e6a)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/58c31ba3-3294-4f0b-9871-aa3f682f7407)
+
+# Redshift Spectrum
+
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/fb04f35b-da3c-43b5-b5d8-1de8e3779a64)
+
+
 postgres=> SELECT version();
                                                    version
 -------------------------------------------------------------------------------------------------------------
