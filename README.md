@@ -385,6 +385,77 @@ https://github.com/pluralsight-cloud/AWS-Certified-Database-Specialty-DBS-C01/tr
 ![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/94ea5763-64cc-408d-955f-87e080553214)
 
 
+
+
+# RDS Autoscale 
+With storage autoscaling enabled, when Amazon RDS detects that you are running out of free database space, it automatically scales up your storage. Amazon RDS starts a storage modification for an autoscaling-enabled DB instance when these factors apply:
+
+    Free available space is less than 10 percent of the allocated storage.
+    The low-storage condition lasts at least five minutes.
+    At least six hours have passed since the last storage modification.
+
+https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_PIOPS.StorageTypes.html#USER_PIOPS.Autoscaling
+
+
+
+
+# Redis cluster mode
+Redis (cluster mode disabled)
+
+Redis is designed to support complex data types. Additionally, Redis (cluster mode disabled) supports scaling and is better equipped to handle read-heavy loads on your cluster. You can scale read capacity by adding or deleting replica nodes or scale capacity by scaling up to a larger node type.
+
+https://docs.aws.amazon.com/AmazonElastiCache/latest/red-ug/Replication.Redis-RedisCluster.html
+
+Redis (cluster mode enabled)
+
+Though Redis (cluster mode enabled) is traditionally used for partitioning, it now allows for vertical scaling. However, Redis (cluster mode enabled) would be better suited for scaling if the load on the cluster were write-heavy as it would include additional write endpoints.
+
+There are two ways to scale your Redis (cluster mode enabled) cluster; horizontal and vertical scaling.
+
+    Horizontal scaling allows you to change the number of node groups (shards) in the replication group by adding or removing node groups (shards). The online resharding process allows scaling in/out while the cluster continues serving incoming requests. Configure the slots in your new cluster differently than they were in the old cluster. Offline method only.
+
+    Vertical Scaling - Change the node type to resize the cluster. The online vertical scaling allows scaling up/down while the cluster continues serving incoming requests.
+
+
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/39e384f3-1705-4610-a3c2-65b9e9078f50)
+
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/aa5307b4-c38f-4ffa-94e1-1a6359ba2e44)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/36892ed6-fd00-47d7-b388-659b5c63ad45)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/e1b11962-cf58-4ed5-ab32-6eedb6578cef)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/d3befd94-bbd9-4753-a7f7-7f4c94749b98)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/9129ee90-54a7-4551-b3c4-519bc83d35a3)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/82865c0a-d17b-4bea-9754-d5e3e5bb381b)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/fe119f74-3600-4462-9a30-5dad71eb9ab6)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/d8afce31-1a38-4a37-952a-91a5bb54c8b2)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/af351e4f-6990-45de-92c0-3bd049e697c3)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/127f75e1-5b4f-48ad-88df-a8af144494f0)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/b2e0cc35-8865-4df8-abb9-c9c8ccd2582c)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/c006fa54-f838-4df4-bd44-b92842c4bfca)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/9c7d391f-339a-4b88-a02e-d784b5022d6d)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/019cf544-a95a-48e5-b798-186d60bd4409)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/e84c2336-82c2-4d7b-9743-6d66b36c18d3)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/4a19de7e-f9dd-4af1-8b8f-c6e5df64198d)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/6652484b-ffe2-4cb1-8eca-cf4e12094c16)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/c7aa2e30-24bb-44e5-8f3b-56d031629fc4)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/c49e5db0-4177-4d3f-a3bc-f0deb384a1a2)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/c8aa08f8-7a36-402f-bfbd-530f37d62ea2)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/25b9d448-0f62-49e4-a764-158a5f6f3017)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/ce0b283a-ddf7-4ef8-b35c-4e8a4d54e428)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/372811cb-5870-4c0c-aa3b-23c5ee64a94f)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/d4f60504-161b-4a42-b905-438a88b0dae2)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/7a6a2833-fc50-4852-96b7-60d32425018a)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/3e18fe30-9d9c-4736-b6fc-bbbc6d49fc6c)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/ec1459ba-cf2e-4088-982e-0c1597061fac)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/bee545c6-28db-40df-ac68-8d0dccc5273a)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/c33d0f8f-be48-4e4c-866f-708108b3459f)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/411571e1-023c-4fc3-a5cf-8029c080f1aa)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/48582120-8a7a-474e-a7fa-bd7b9b78e6ee)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/b7cba94a-459b-4c73-8964-5316b61a20d4)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/d327c1e5-b2b4-4fbf-bacf-16ef6689cca6)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/fb8f7ec6-cd01-484f-8cbf-38a3750b5334)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/1c9074b4-f159-435d-8f18-3940fdf2be18)
+
+
 postgres=> SELECT version();
                                                    version
 -------------------------------------------------------------------------------------------------------------
