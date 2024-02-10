@@ -454,6 +454,11 @@ There are two ways to scale your Redis (cluster mode enabled) cluster; horizonta
 ![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/d327c1e5-b2b4-4fbf-bacf-16ef6689cca6)
 ![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/fb8f7ec6-cd01-484f-8cbf-38a3750b5334)
 ![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/1c9074b4-f159-435d-8f18-3940fdf2be18)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/be72b2cb-c959-4092-b69f-126ae00013d9)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/5833857b-d501-4d5d-a76c-d1d4d831c9ea)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/8cd9e210-87e7-45ab-aa82-3ab1f283c842)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/cbc8da4d-1b4b-415e-abab-c6ff833b7a1d)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/3673942f-fb48-4fa4-a6fc-647b286b5691)
 
 
 postgres=> SELECT version();
