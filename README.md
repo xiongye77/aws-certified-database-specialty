@@ -459,6 +459,14 @@ There are two ways to scale your Redis (cluster mode enabled) cluster; horizonta
 ![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/8cd9e210-87e7-45ab-aa82-3ab1f283c842)
 ![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/cbc8da4d-1b4b-415e-abab-c6ff833b7a1d)
 ![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/3673942f-fb48-4fa4-a6fc-647b286b5691)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/f591d9d3-0321-4ce8-81f2-5b213c65aab7)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/778e251a-9351-490b-8821-b61432dd2dbd)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/e85d4331-5842-4afc-98ee-efe3d59e1562)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/efd234e3-5b8b-42ae-b85b-a617e8e170c9)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/6fe04b2b-3403-44cc-bf07-557fdb4915c2)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/22dceeb5-da10-4272-a9df-16b0340609dc)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/a8a2a46c-f881-4d81-a9cc-5ce04d014c91)
+![image](https://github.com/xiongye77/aws-certified-database-specialty/assets/36766101/4ea2cb0c-f240-495f-a078-30edb4ddad31)
 
 
 postgres=> SELECT version();
